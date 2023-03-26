@@ -1,0 +1,136 @@
+/* Global styles */
+html {
+  background-color: #111;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.beats li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  width: 33.33%;
+}
+
+.beats img {
+  max-width: 100%;
+}
+
+.beats h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.beats span {
+  display: block;
+  margin-top: 5px;
+}
+
+form {
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
